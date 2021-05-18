@@ -42,16 +42,19 @@ nav {
 
 a {
     color: var(--secondary);
+    text-decoration: none;
 }
 
 a:hover {
     color: var(--tertiary);
+    text-decoration: none;
+    text-shadow: 0 0 7px #660099;
 }
 
 li {
     list-style-type: none;
 }
 
-li:hover{
-    cursor: url(https://cur.cursors-4u.net/others/oth-5/oth466.cur)
+li:hover {
+    cursor: url(https://cur.cursors-4u.net/others/oth-5/oth466.cur);
 }
