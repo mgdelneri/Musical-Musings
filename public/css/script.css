@@ -25,6 +25,7 @@ header {
 
 h1 {
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 #first-line {
@@ -33,6 +34,10 @@ h1 {
 
 #second-line {
     margin-top: 15px;
+}
+
+nav {
+    padding-top: 30px;
 }
 
 a {
@@ -45,4 +50,8 @@ a:hover {
 
 li {
     list-style-type: none;
+}
+
+li:hover{
+    cursor: url(https://cur.cursors-4u.net/others/oth-5/oth466.cur)
 }
