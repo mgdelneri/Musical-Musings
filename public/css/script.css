@@ -19,6 +19,7 @@ header {
 
 h1 {
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 #first-line {
@@ -27,6 +28,10 @@ h1 {
 
 #second-line {
     margin-top: 15px;
+}
+
+nav {
+    padding-top: 30px;
 }
 
 a {
