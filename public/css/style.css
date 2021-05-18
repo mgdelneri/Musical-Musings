@@ -18,11 +18,11 @@ body {
     padding-top: 40px;
 }
 
-header {
+#main-header {
     font-weight: bolder;
 }
 
-h1 {
+#main-h1 {
     margin-top: 20px;
     margin-bottom: 60px;
 }
@@ -35,7 +35,7 @@ h1 {
     margin-top: 15px;
 }
 
-nav {
+#main-nav {
     padding-top: 30px;
 }
 
