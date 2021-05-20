@@ -98,10 +98,9 @@ li:hover {
     justify-content: space-around; */
 }
 
-
-/*#login-page {
-    display: none
-}*/
+.card {
+    padding-bottom: 100px;
+}
 
 @media screen and (min-width: 640px) {
     .col-sm-1 {
