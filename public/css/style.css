@@ -108,6 +108,10 @@ li:hover {
 .card {
     padding-bottom: 60px;
 }
+#content-area{
+    height: 300px;
+    width: 300px;
+}
 
 @media screen and (min-width: 640px) {
     .col-sm-1 {
