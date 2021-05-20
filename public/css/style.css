@@ -83,14 +83,14 @@ li:hover {
     background-color: var(--secondary);
     border-radius: 3em;
     padding: 0.3em 1.2em;
-    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
     border: none;
 }
 
 .btn:hover {
     color: var(--primary);
     text-decoration: none;
-    text-shadow: 0 0 5px var(--tertiary);
+    box-shadow: 0 0 5px var(--tertiary);
     transition: all 0.2s;
 }
 
