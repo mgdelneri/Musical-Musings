@@ -59,6 +59,15 @@ li:hover {
     cursor: url(https://cur.cursors-4u.net/others/oth-5/oth466.cur);
 }
 
-/*#login-page {
-    display: none
-}*/
+#username-login,
+#password-login,
+#username-signup,
+#password-signup {
+    height: 30px;
+    width: 150px;
+    border: 3px solid var(--primary);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
