@@ -48,7 +48,8 @@ a {
 a:hover {
     color: var(--tertiary);
     text-decoration: none;
-    text-shadow: 0 0 7px #660099;
+    text-shadow: 0 0 7px var(--primary);
+    transition: all 0.2s;
 }
 
 li {
