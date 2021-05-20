@@ -76,6 +76,15 @@ li:hover {
     transition: all 0.2s;
 }
 
+.card-body{
+    background-color: var(--background);
+    opacity: .9;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 20px gray;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
 
 /*#login-page {
     display: none
