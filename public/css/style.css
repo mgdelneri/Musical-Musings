@@ -48,7 +48,8 @@ a {
 a:hover {
     color: var(--tertiary);
     text-decoration: none;
-    text-shadow: 0 0 7px #660099;
+    text-shadow: 0 0 7px var(--primary);
+    transition: all 0.2s;
 }
 
 li {
@@ -71,3 +72,17 @@ li:hover {
     text-align: center;
 }
 
+.btn {
+    color: var(--primary);
+    background-color: var(--secondary);
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+}
+
+.btn:hover {
+    color: var(--primary);
+    text-decoration: none;
+    text-shadow: 0 0 5px var(--tertiary);
+    transition: all 0.2s;
+}
