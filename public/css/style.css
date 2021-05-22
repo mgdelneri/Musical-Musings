@@ -126,6 +126,14 @@ li:hover {
     flex-direction: column;
 }
 
+.footer{
+    padding: 25px 0 25px 0;
+}
+
+.footer a {
+    color: var(--primary);
+}
+
 @media screen and (min-width: 640px) {
     .col-sm-1 {
         flex: 0 0 calc(100% * 1 / 12 - 2%);
