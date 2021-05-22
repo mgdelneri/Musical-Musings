@@ -1,0 +1,15 @@
+<div class="post card">
+  <div class="card-header">
+    <h2>Create New Post</h2>
+  </div>
+  <form id="new-music-form" class="card-body">
+    <label class="form-label" for="post-title">Title</label>
+    <br>
+    <input type="text" name="post-title" class="form-input" />
+    <br>
+
+    <form enctype="multipart/form-data" action="uploader.php" method="POST">
+      <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+      Choose a file to upload: <input name="uploadedfile" type="file" /><br />
+      <input type="submit" value="Upload File" />
+      <br>
