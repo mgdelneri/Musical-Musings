@@ -18,6 +18,7 @@ body {
     text-align: center;
     font-size: xx-large;
     background-image: url(./T0Mw3xx-free-music-background-images.jpg);
+    background-attachment: fixed;
     color: var(--primary);
     padding-top: 40px;
 }
@@ -109,9 +110,15 @@ li:hover {
 .card {
     padding-bottom: 60px;
 }
-#content-area{
+
+#content-area {
     height: 300px;
     width: 300px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 640px) {
