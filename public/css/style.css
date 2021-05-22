@@ -36,6 +36,11 @@ body {
     margin-bottom: 15px;
 }
 
+img {
+    height: 225px;
+    width: 225px;
+}
+
 #second-line {
     margin-top: 15px;
 }
