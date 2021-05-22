@@ -13,6 +13,16 @@ Post.hasMany(Comment, {
   onDelete: 'CASCADE'
 });
 
+Exchange.belongsTo(User, {
+  foreignKey: 'userId',
+  onDelete: 'CASCADE'
+});
+
+Exchange.hasMany(Comment, {
+  foreignKey: 'postId',
+  onDelete: 'CASCADE'
+});
+
 Comment.belongsTo(User, {
   foreignKey: 'userId',
   onDelete: 'CASCADE'
