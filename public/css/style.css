@@ -23,6 +23,12 @@ body {
     padding-top: 40px;
 }
 
+.container{
+    background-image: url(./logo.png);
+    height: 150px;
+    width: 150px
+}
+
 #main-header {
     font-weight: bolder;
 }
