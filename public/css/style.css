@@ -42,13 +42,13 @@ body {
     margin-bottom: 15px;
 }
 
+#second-line {
+    margin-top: 15px;
+}
+
 img {
     height: 225px;
     width: 225px;
-}
-
-#second-line {
-    margin-top: 15px;
 }
 
 #main-nav {
@@ -114,12 +114,9 @@ li:hover {
     margin: 0 30% 0 30%;
     padding: 10px 0 10px 0;
     margin-bottom: 80px;
+    padding-bottom: 60px;
     /* display: flex;
     justify-content: space-around; */
-}
-
-.card {
-    padding-bottom: 60px;
 }
 
 #content-area {
