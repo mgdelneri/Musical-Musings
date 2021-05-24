@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -49,6 +50,16 @@ body {
 img {
     height: 225px;
     width: 225px;
+}
+
+.form-input {
+    height: 30px;
+}
+
+.form-image {
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
 }
 
 #main-nav {
@@ -115,8 +126,6 @@ li:hover {
     padding: 10px 0 10px 0;
     margin-bottom: 80px;
     padding-bottom: 60px;
-    /* display: flex;
-    justify-content: space-around; */
 }
 
 #content-area {

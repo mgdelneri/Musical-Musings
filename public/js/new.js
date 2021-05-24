@@ -5,8 +5,7 @@ const newFormHandler = async function(event) {
     const body = document.querySelector('textarea[name="post-body"]').value;
     const image = document.querySelectorAll('#upload_widget[name="post-image"]').value;
 
-
-    await fetch(`/api/post`, {
+        await fetch(`/api/post`, {
         method: 'POST',
         body: JSON.stringify({
             title,
