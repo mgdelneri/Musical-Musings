@@ -38,7 +38,7 @@ Here are some images of the Musical Musings app:
 
 ## INSTALLATION
 
-The Musical-Musings app is deployed in Heroku via the [Musical-Musings Heroku link]().
+The Musical-Musings app is deployed in Heroku via the [Musical-Musings Heroku link](https://git.heroku.com/intense-dusk-91957.git).
 
 The user can also access the app by using the Node.js command "npm start" in the Terminal of the Musical-Musings repo in VS Code. This will start the router in localhost:3001 in the user's browser. 
 
