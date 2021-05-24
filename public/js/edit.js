@@ -5,12 +5,14 @@ const editFormHandler = async function(event) {
 
     const title = document.querySelector('input[name="post-title"]').value;
     const body = document.querySelector('textarea[name="post-body"]').value;
+    const image = document.querySelectorAll('.form-image[name="post-image"]').value;
 
     await fetch(`/api/post/${postId}`, {
         method: 'PUT',
         body: JSON.stringify({
             title,
-            body
+            body,
+            image
         }),
         headers: {
             'Content-Type': 'application/json'
