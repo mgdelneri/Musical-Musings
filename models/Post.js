@@ -7,7 +7,7 @@ Post.init(
   {
     title: DataTypes.STRING,
     body: DataTypes.STRING,
-    image: DataTypes.BLOB
+    image: DataTypes.STRING
   },
   {
     sequelize
