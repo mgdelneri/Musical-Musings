@@ -12,9 +12,9 @@ const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 cloudinary.config({
-    cloud_name: process.env.CLOUD_NAME,
-    api_key: process.env.API_KEY,
-    api_secret: process.env.API_SECRET
+    cloud_name: 'dustingottlieb',
+    api_key: '384262337385414',
+    api_secret: 'I892sxli4ZxOTCvgQPdGIN_hZ9k'
 });
 
 const sess = {
