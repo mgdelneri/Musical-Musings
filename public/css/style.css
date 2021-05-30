@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -24,12 +23,6 @@ body {
     padding-top: 40px;
 }
 
-.container{
-    background-image: url(./logo.png);
-    height: 150px;
-    width: 150px
-}
-
 #main-header {
     font-weight: bolder;
 }
@@ -47,9 +40,59 @@ body {
     margin-top: 15px;
 }
 
-img {
-    height: 225px;
-    width: 225px;
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.record {
+    display: flex;
+    justify-content: center;
+}
+
+.outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: center;
+    background: radial-gradient(circle, rgba(29, 29, 29, 1) 38%, rgba(46, 46, 46, 1) 40%, rgba(29, 29, 29, 1) 42%, rgba(46, 46, 46, 1) 44%, rgba(29, 29, 29, 1) 46%, rgba(46, 46, 46, 1) 48%, rgba(29, 29, 29, 1) 50%, rgba(46, 46, 46, 1) 51%, rgba(29, 29, 29, 1) 53%, rgba(46, 46, 46, 1) 55%, rgba(29, 29, 29, 1) 57%, rgba(46, 46, 46, 1) 59%, rgba(29, 29, 29, 1) 61%, rgba(46, 46, 46, 1) 63%, rgba(29, 29, 29, 1) 65%, rgba(46, 46, 46, 1) 66%, rgba(29, 29, 29, 1) 68%, rgba(46, 46, 46, 1) 70%, rgba(29, 29, 29, 1) 72%);
+    height: 200px;
+    width: 200px;
+    border-radius: 120px;
+}
+
+.center {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    left: 63px;
+    bottom: 62px;
+    background: black;
+    border: 35px ridge rgba(170, 50, 220, .6);
+    border-radius: 120px;
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.arm {
+    position: relative;
+    left: 180px;
+    width: 6px;
+    height: 120px;
+    border-radius: 2px;
+    border-bottom: 10px solid orange;
+    background: black;
 }
 
 .form-input {
@@ -102,16 +145,17 @@ li:hover {
     text-align: center;
 }
 
-.btn {
+.btn,
+#uploadwidget {
     color: var(--primary);
     background-color: var(--secondary);
     border-radius: 3em;
     padding: 0.3em 1.2em;
-    border-radius: 2em;
     border: none;
 }
 
-.btn:hover {
+.btn:hover,
+#uploadwidget:hover {
     color: var(--primary);
     text-decoration: none;
     box-shadow: 0 0 5px var(--tertiary);
@@ -138,7 +182,7 @@ li:hover {
     flex-direction: column;
 }
 
-.footer{
+.footer {
     padding: 25px 0 25px 0;
 }
 
