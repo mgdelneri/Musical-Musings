@@ -4,8 +4,10 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const helpers = require('./utils/helpers');
 const cloudinary = require('cloudinary');
+const compression = require('compression');
 
 const app = express();
+app.use(compression());
 const PORT = process.env.PORT || 3001;
 
 const sequelize = require('./config/connection');
