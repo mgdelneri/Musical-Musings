@@ -1,5 +1,8 @@
 # MUSICAL-MUSINGS
 
+![musing](https://user-images.githubusercontent.com/77468756/124652158-630e2f00-de61-11eb-9b35-602f496ab5cb.png)
+
+
 ## DESCRIPTION
 
 Musical Musings is an application that allows people to exchange ideas and opinions about the world of music. This project uses Node.js, Express.js, Handlebars.js, Sequelize, a MySQL database, and Cloudinary. Cloudinary provides an API for image management.
